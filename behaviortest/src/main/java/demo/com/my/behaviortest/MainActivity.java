@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    @OnClick({R.id.float_btn, R.id.bottom_dialog, R.id.user_test})
+    @OnClick({R.id.float_btn, R.id.bottom_dialog, R.id.user_test, R.id.parallex})
     public void onClick(View view){
         Intent intent;
         switch (view.getId()){
@@ -44,6 +44,9 @@ public class MainActivity extends AppCompatActivity {
                 intent = new Intent(MainActivity.this, UserTestActivity.class);
                 startActivity(intent);
                 break;
+            case R.id.parallex:
+                intent = new Intent(MainActivity.this, ParallexActivity.class);
+                startActivity(intent);
         }
     }
 }

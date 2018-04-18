@@ -20,6 +20,7 @@
         <activity android:name=".FloatBtnActivity"/>
         <activity android:name=".BottomSheetActivity"/>
         <activity android:name=".UserTestActivity"/>
+        <activity android:name=".ParallexActivity"/>
     </application>
 
 </manifest>
