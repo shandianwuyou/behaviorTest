@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">BehaviorTest</string>
+
+    <string name="my_float_btn">demo.com.my.behaviortest.behavior.MyFloatBtnBehavior</string>
+</resources>

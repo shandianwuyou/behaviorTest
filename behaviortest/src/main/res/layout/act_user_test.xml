@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <demo.com.my.behaviortest.weight.DragView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="第一项"
+        android:colorBackground="#00ff00"/>
+
+    <demo.com.my.behaviortest.weight.DragView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="第二项"
+        android:colorBackground="#ff0000"/>
+
+    <demo.com.my.behaviortest.weight.DragView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="第三项"
+        android:colorBackground="#0000ff"/>
+
+    <demo.com.my.behaviortest.weight.DragView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="第四项"
+        android:colorBackground="#99ff22"/>
+
+</android.support.design.widget.CoordinatorLayout>
