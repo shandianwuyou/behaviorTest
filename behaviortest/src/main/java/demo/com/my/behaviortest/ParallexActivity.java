@@ -20,8 +20,10 @@ public class ParallexActivity extends AppCompatActivity {
         setContentView(R.layout.act_parallex);
 
         CollapsingToolbarLayout collapsingToolbarLayout = findViewById(R.id.collapsingtoolbarlayout);
-        //设置标题颜色
+        //设置展开时标题颜色
         collapsingToolbarLayout.setExpandedTitleColor(Color.parseColor("#ff0000"));
+        //设置收缩后标题颜色
+        collapsingToolbarLayout.setCollapsedTitleTextColor(Color.parseColor("#0000ff"));
 
     }
 }
