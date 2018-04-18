@@ -1,9 +1,10 @@
 # behaviorTest
 
-这是关于behavior的demo
-  1,FloatingActionButton的使用  
-  2,BottomSheetBehavior和BottomSheetDialog的使用  
-  3,自定义behavior  
+### 这是关于behavior的demo 
+  * FloatingActionButton的使用  
+  * BottomSheetBehavior和BottomSheetDialog的使用  
+  * 自定义behavior  
+  
 
 图例：  
   1,FloatingActionButton的使用   
